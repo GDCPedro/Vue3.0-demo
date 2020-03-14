@@ -1,2 +1,9 @@
-# Vue3.0-demo
-have a try on Vue 3.0 &amp; TypeScript
+# vue-next demo
+
+## 启动服务
+
+npm start
+
+### 构建生产环境
+
+npm run build
