@@ -1,5 +1,7 @@
 # vue-next demo
 
+* npm i
+
 ## 启动服务
 
 npm start
