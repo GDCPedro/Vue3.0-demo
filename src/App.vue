@@ -5,18 +5,23 @@
   </div>
 </template>
 
-<script>
-  import { ref } from 'vue'
+<script lang="ts">
+  import { defineComponent, ref } from 'vue'
 
-  export default {
-    setup() {
+  export default defineComponent({
+    setup () {
+      // const state = reactive({
+      //   count: 0
+      // })
+
       const count = ref(0)
 
       const increment = () => {
+        console.log(count)
         count.value++
       }
 
-      return { count, increment }
+      return { increment, count }
     }
-  }
+  })
 </script>
