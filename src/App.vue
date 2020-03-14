@@ -9,7 +9,7 @@
   import { ref } from 'vue'
 
   export default {
-    setUp() {
+    setup() {
       const count = ref(0)
 
       const increment = () => {

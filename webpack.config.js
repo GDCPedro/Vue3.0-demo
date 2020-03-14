@@ -28,6 +28,12 @@ module.exports = (env = {}) => ({
           'style-loader',
           'css-loader'
         ]
+      },
+      {
+        test: /\.ts$/,
+        use: [
+          'ts-loader'
+        ]
       }
     ]
   },
