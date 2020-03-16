@@ -13,7 +13,7 @@
       "strict": true,
       "strictPropertyInitialization": false,
       "suppressImplicitAnyIndexErrors": true,
-      "target": "es2015",
+      "target": "es5",
       "baseUrl": "."
   },
   "exclude": [
