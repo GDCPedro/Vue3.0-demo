@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/GDCPedro/Vue3.0-demo#readme",
   "dependencies": {
-    "vue": "^3.0.0-alpha.8"
+    "vue": "^3.0.0-alpha.9"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-alpha.8",
+    "@vue/compiler-sfc": "^3.0.0-alpha.9",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.0",
