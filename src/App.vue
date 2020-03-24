@@ -49,7 +49,6 @@
 
       console.log(greeterGdc.doGreeting())
 
-
       const count: any = ref(0)
 
       // const increment = () => {

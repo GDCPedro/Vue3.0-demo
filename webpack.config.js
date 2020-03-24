@@ -42,7 +42,7 @@ module.exports = (env = {}) => ({
     new VueLoaderPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: path.resolve(__dirname, './public/index.html'),
       filename: 'index.html'
     })
   ],
