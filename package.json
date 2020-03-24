@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --open --config webpack.config.js",
     "dev": "webpack-dev-server",
     "build": "webpack --env.prod",
-    "author": "echo gdc"
+    "author": "echo GuoDongchao"
   },
   "repository": {
     "type": "git",
